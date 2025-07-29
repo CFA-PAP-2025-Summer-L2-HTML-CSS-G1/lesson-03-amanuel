@@ -7,6 +7,9 @@ body {
     min-height: 100%;
     line-height: 1.5;
     background: #fde6a7;
+    text-align: center;
+    color: #48887E;
+    font-family: "Lalezar";
 }
 
 img,
@@ -16,9 +19,17 @@ video {
     display: block;
 }
 
-h1,
+h1 {
+    font-family: rye;
+    font-size: 100px;
+}
 h2,
-h3,
+h3 {
+    text-transform:uppercase;
+    font-size: 40px;
+
+}
+
 h4,
 h5,
 h6 {
@@ -46,3 +57,29 @@ main {
     background: #9bb4ab url(background.jpg) no-repeat top center;
     background-size: cover;
 }
+
+p {
+    font-style: italic;
+    font-size: 2em;
+}
+
+.rye-regular {
+    font-family: "Rye", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .lalezar-regular {
+    font-family: "Lalezar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .highlight {
+    color: #c70000;
+  }
+
+  #date {
+    font-size: 100px;
+    font-weight: bold;
+  }
