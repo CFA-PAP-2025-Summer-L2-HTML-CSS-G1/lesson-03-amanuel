@@ -14,7 +14,7 @@ body {
 
 img,
 video {
-    margin: 30px auto 30px -50px;
+    margin: 30px -50px 30px -50px;
     max-width: calc(100% + 100px);
     display: block;
 }
@@ -26,6 +26,7 @@ h4,
 h5,
 h6 {
     text-align: left;
+    font-family: 'Playfair' , sans-serif;
 }
 
 a {
@@ -37,6 +38,7 @@ a {
 
 p {
     text-align: left;
+    font-family: 'Lato' , sans-serif;
 }
 
 main {
@@ -48,4 +50,17 @@ main {
     box-shadow: 0 0 20px #ccc;
 }
 
+.border{
+    border: 5px solid black;
+    border-radius: 20px;
+
+}
+
+#picture{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    
+}
 /* =================== Student styles below ================ */
